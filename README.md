@@ -52,11 +52,43 @@ A flexible Lightning Web Component that displays styled notification banners in 
 
 ## Installation
 
-Deploy to your Salesforce org using the Salesforce CLI:
+Choose the installation method that best fits your needs:
 
-```bash
-sfdx project deploy start --source-dir force-app/main/default/lwc/notificationBanner --target-org <your-org-alias>
-```
+### Option 1: Download component only
+_Recommended if you already have a Salesforce SFDX project_
+
+1. Download the `notificationBanner/` folder from [GitHub](https://github.com/JJJJJJJJS/Salesforce-Notification-Banner)
+2. Place it in your project: `force-app/main/default/lwc/notificationBanner/`
+3. Deploy using Salesforce CLI:
+   ```bash
+   sfdx project deploy start --source-dir force-app/main/default/lwc/notificationBanner --target-org <your-org-alias>
+   ```
+
+### Option 2: Clone the full repository
+_Recommended if you want to explore the code or contribute_
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/JJJJJJJJS/Salesforce-Notification-Banner.git
+   cd Salesforce-Notification-Banner
+   ```
+
+2. Deploy the component:
+   ```bash
+   sfdx project deploy start --source-dir . --target-org <your-org-alias>
+   ```
+   Or deploy just the component:
+   ```bash
+   sfdx project deploy start --source-dir notificationBanner --target-org <your-org-alias>
+   ```
+
+### Setup in Lightning App Builder
+1. Navigate to any Lightning Record Page, App Page, or Home Page
+2. Click **Edit** (pencil icon)
+3. Search for **Notification Banner** in the Lightning components panel
+4. Drag it into your page
+5. Configure the properties in the right sidebar
+6. Click **Save**
 
 ---
 

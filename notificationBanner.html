@@ -1,0 +1,17 @@
+<template>
+    <div class={className} style={customStyle} role="status">
+        <div class="slds-media__figure">
+            <lightning-icon
+                icon-name={iconName}
+                alternative-text={type}
+                variant="inverse"
+            ></lightning-icon>
+        </div>
+        <div class="slds-media__body">
+            <div>
+                <span class="notification-title" style={titleStyle}>{title}</span>
+                <span class="notification-body" style={bodyStyle}>{body}</span>
+            </div>
+        </div>
+    </div>
+</template>

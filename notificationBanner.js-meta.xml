@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="notificationBanner">
+    <apiVersion>66.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Notification Banner</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage,lightning__AppPage,lightning__HomePage,lightning__FlowScreen">
+            <property name="type" type="String" label="Type" description="The type of message (Options: alert, success, warning, error, info, custom)" />
+            <property name="icon" type="String" label="Icon" description="Choose your Icon if you want to override the default icon of the type. See https://www.lightningdesignsystem.com/icons/#utility for all available icons" />
+            <property name="title" type="String" label="Title (BOLD)" description="The title of the message" />
+            <property name="titleFontSize" type="Integer" label="Title Font Size" description="Font size for the title in pixels (default: 16)" default="16" />
+            <property name="body" type="String" label="Body" description="The body of the message" />
+            <property name="bodyFontSize" type="Integer" label="Body Font Size" description="Font size for the body in pixels (default: 16)" default="16" />
+            <property name="customBackgroundColour" type="String" label="Custom Background Colour" description="Use with 'custom'. Hex colour code (e.g., #EFBF04)" default="#EFBF04" />
+            <property name="customTextColour" type="String" label="Custom Text Colour" description="Use with 'custom'. Hex colour code (e.g., #403301)" default="#403301" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

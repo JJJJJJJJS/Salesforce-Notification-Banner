@@ -1,0 +1,9 @@
+.notification-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.notification-body {
+  display: block;
+}

@@ -44,6 +44,12 @@ A flexible Lightning Web Component that displays styled notification banners in 
 
 ---
 
+## 📚 Preview
+
+<img width="1331" height="654" alt="Default" src="https://github.com/user-attachments/assets/44c5f3cf-f03c-49a2-ab1b-52499b41f5cc" />
+- [Full Documentation & Screenshots](https://github.com/JJJJJJJJS/Salesforce-Notification-Banner/wiki) — Check out the Wiki for screenshots and detailed usage examples
+
+
 ## Installation
 
 Deploy to your Salesforce org using the Salesforce CLI:

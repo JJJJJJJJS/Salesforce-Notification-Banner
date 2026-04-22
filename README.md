@@ -2,7 +2,7 @@
 
 A flexible Lightning Web Component that displays styled notification banners in Salesforce using SLDS scoped notifications.
 
-> Original component created by [Dylan Pluk](https://github.com/dylanpluk).  
+> Original component created by [Dylan Pluk](https://github.com/DylanPlukkie).  
 > Extended and developed by [Jagmohan Singh](https://github.com/JJJJJJJJS).
 
 ---
